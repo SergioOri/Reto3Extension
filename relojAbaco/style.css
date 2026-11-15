@@ -1,0 +1,64 @@
+:root{
+  --colorBtn: #b8763a;
+  --fondo: #0B0F2B;
+}
+
+@font-face {
+  font-family: "PressStart";
+  src: url("font/PressStart2P-Regular.ttf") format("truetype");
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body.modo-claro{
+  --colorBtn: #b9a3d9;
+  --fondo: #ffe9f3;
+}
+
+canvas {
+  display: block;
+}
+
+main{
+  display: block;
+  width: fit-content;
+}
+
+#botones{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: end;
+  margin 0 0.3rem 0 0;
+}
+
+
+.btns{
+  margin: 0.9rem 0 0 0;
+  padding: 0.25rem 0.4rem 0.25rem 0.4rem;
+  position: fixed;
+  width: 4rem;
+  height: auto;
+  cursor: pointer;
+  font-family: PressStart;
+  font-size: 0.45rem;
+  color: var(--colorBtn);
+  border: 1.5px solid var(--colorBtn);
+  background-color: transparent;
+  border-radius: 10px;
+  text-align: CENTER;
+}
+
+
+.btns:hover{
+  background-color: var(--colorBtn);
+  color: var(--fondo);
+}
+
+#btnTexto{
+  margin: 2.6rem 0 0 0;
+}

@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Reloj Ábaco",
+  "version": "1.0",
+  "description": "Agrega un pop-up con la hora local, mediante un ábaco. Se puede cambiar los colores y la visibilidad del texto",
+
+  "icons": {
+    "48": "icons/48px.png"
+  },
+
+  "permissions": ["storage"],
+
+  "action": {
+  "default_icon": {
+    "16": "icons/16px.png",
+    "32": "icons/32px.png"
+  },
+  "default_title": "Reloj Ábaco",
+  "default_popup": "index.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "reloj-abaco@pec3.example"
+    }
+  }
+}
