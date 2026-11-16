@@ -26,8 +26,9 @@ La instalación es **temporal**: Al cerrar Firefox, se eliminará.
 - p5.js: Para crear la interfaz gráfica y funcionamiento del reloj
 
 ## Créditos y licencia
-**p5.js**: https://p5js.org/
-Fuente **Press Start 2P**: https://fonts.google.com/specimen/Press+Start+2P
+- **p5.js**: https://p5js.org/
+- Fuente **Press Start 2P**: https://fonts.google.com/specimen/Press+Start+2P
 
+Licencia MIT. Consulte el archivo `LICENSE`.
 ## Author
 Sergio Orihuela Alba - UOC
